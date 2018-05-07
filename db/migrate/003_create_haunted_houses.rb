@@ -1,7 +1,7 @@
 class CreateHauntedHouse < ActiveRecord::Migration[4.2]
   
   def change 
-    create_table :costume_stores do |t|
+    create_table :haunted_house do |t|
       t.string :name 
       t.string :location
       t.string :theme 
